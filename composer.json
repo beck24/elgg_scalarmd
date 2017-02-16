@@ -1,0 +1,25 @@
+{
+    "name": "beck24/elgg_stringify",
+    "type": "elgg-plugin",
+    "description": "Provide a global function for ensuring metadata output is a string, and potentially fixing it if not",
+    "homepage": "http://arckinteractive.com",
+    "keywords": [
+        "elgg", "plugin", "utility", "bugfix", "workaround"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Matt Beckett"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "classes/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "composer/installers": "~1.0"
+    }
+}
+
