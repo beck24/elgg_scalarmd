@@ -28,11 +28,11 @@ $entity->country is now:
         [1] => canada
     )
 
-Without fixing: \Beck24\scalarmd($user, $name, false)
+Without fixing: \Beck24\scalarmd($entity, 'country', false)
 
     canada
 
-User md is still:
+$entity->country is still:
 
     Array
     (
@@ -40,10 +40,10 @@ User md is still:
         [1] => canada
     )
 
-Now with fixing: \Beck24\scalarmd($user, $name)
+Now with fixing: \Beck24\scalarmd($entity, 'country')
 
     canada
 
-User md is now:
+$entity->country is now:
 
     canada
