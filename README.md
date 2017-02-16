@@ -1,6 +1,9 @@
 # elgg_scalarmd
 Provide a global function for ensuring metadata output is a string, and potentially fixing it if not.
 
+This is useful for situations where you are expecting a string, and only a string, and an accidental
+array return would break things.  An example might be a webservices response that requires a string.
+
 This is a workaround for https://github.com/Elgg/Elgg/issues/4268 where frequently updated metadata
 can accidentally duplicate into an array.  This function ensures a scalar return for the metadata value
 and will reset the entity metadata to a scalar value by default.
