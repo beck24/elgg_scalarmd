@@ -1,4 +1,4 @@
-# elgg_stringify
+# elgg_scalarmd
 Provide a global function for ensuring metadata output is a string, and potentially fixing it if not.
 
 This is a workaround for https://github.com/Elgg/Elgg/issues/4268 where frequently updated metadata
