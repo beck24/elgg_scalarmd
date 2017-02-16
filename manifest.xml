@@ -3,7 +3,7 @@
     <name>Elgg Scalar MD</name>
     <id>elgg_scalarmd</id>
     <author>Matt Beckett (matt@mattbeckett.me)</author>
-    <version type="dist">1.0.0</version>
+    <version type="dist">1.0.1</version>
     <description>Provide a global function for ensuring metadata output is not an array, and fix it where it isn't Edit</description>
     <website>http://www.arckinteractive.com/</website>
     <copyright>See COPYRIGHT.txt</copyright>
