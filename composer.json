@@ -1,5 +1,5 @@
 {
-    "name": "beck24/elgg_stringify",
+    "name": "beck24/elgg_scalarmd",
     "type": "elgg-plugin",
     "description": "Provide a global function for ensuring metadata output is a string, and potentially fixing it if not",
     "homepage": "http://arckinteractive.com",
